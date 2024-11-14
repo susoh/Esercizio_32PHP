@@ -37,7 +37,6 @@ if ($numero_invii > 0) {
     <ul>
         <?php foreach ($voti as $voto): ?>
             <li><?php echo $voto; ?></li>
-        <?php endforeach; ?>
     </ul>
 
     <h3>Media recensioni: <?php echo number_format($media, 2); ?></h3>
